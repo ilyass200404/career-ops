@@ -1955,7 +1955,13 @@
       }
     }
   },
-  "queue": [],
+  "queue": [
+    {
+      "added": "2026-11-06 23:26",
+      "id": "1dda3314-148f-4e5a-8c2d-6ac69a906440",
+      "rerun": false
+    }
+  ],
   "weights": {
     "archetype": 0.35,
     "comp": 0.25,
