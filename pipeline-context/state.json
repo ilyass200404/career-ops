@@ -61,6 +61,25 @@
         "verdict": "FAIL"
       }
     },
+    "13fbc545-0b0a-4126-b4f8-ebab0523189e": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 5.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Gestion de projet SAV mode (Excel, PowerPoint, GANTT), aucun lien avec l'IA ; démarrage janvier 2027 avant la fenêtre visée.",
+        "role": "Assistant(e) Chef de projet Services après-vente",
+        "score": 2.8,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "155b96bd-a30d-4526-9663-9cf63e8b119b": {
       "triage": {
         "company": "EY",
@@ -80,6 +99,82 @@
           "Début septembre 2027, après le diplôme"
         ],
         "verdict": "FAIL"
+      }
+    },
+    "1be80e23-6202-4d74-aa9d-701284b20142": {
+      "triage": {
+        "company": "Hermès",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Data/BI RSE (Power BI, Power Query, VBA) plutôt qu'IA ; manipulation de données proche, mais outils demandés absents du CV.",
+        "role": "Assistant Chef de projet Data Développement Durable et Conformité Produit",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "225720a9-9595-4007-b98b-17336e413956": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Logiciel embarqué/cloud native sans IA annoncée ; description tronquée, exigences inconnues ; Docker et C/C++ comme seuls recoupements.",
+        "role": "Ingénieur Logiciel Avionique Cloud Native & Systèmes Embarqués",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "24e91500-e7cf-4ba0-8121-7f9f323355c1": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Ingénierie système de tests de défense, stage Bac+4 de 4 mois ; ni IA ni développement, hors cible PFE de 6 mois.",
+        "role": "Architecture de test",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 5.0,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Cible directe : assistant GenAI, prompt engineering, RAG, évaluation LLM ; projets RAG et agents du CV alignés ; TypeScript/Node.js à renforcer.",
+        "role": "IA Agent for IVVQ management",
+        "score": 4.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
       }
     },
     "32bae8f6-2cfd-472f-bf88-592ecd492c7a": {
@@ -120,6 +215,63 @@
           "Début septembre 2027, après le diplôme"
         ],
         "verdict": "FAIL"
+      }
+    },
+    "36da4e63-7784-479b-bd52-0899808a87ee": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier, hors cible IA/LLM ; profil école de commerce/finance attendu ; démarrage sept. 2027/janv. 2028 incompatible avec PFE de mars 2027.",
+        "role": "Auditeur",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "3c92dcb2-3066-4ea9-ac56-b4b00081d24b": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Pilotage et indicateurs (Power BI, DAX) avec automatisation Python ; Python recoupe, mais le métier PMO/BI est loin de la cible IA.",
+        "role": "Ingénieur pilotage de la performance & transformation de l'ingénierie",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "42d8418c-2bcd-4d33-bb74-10c0a07393d0": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "IA (PyTorch) appliquée au traitement du signal, adjacent ; spécialisation électronique et FPGA/MPSoC exigées, absentes du CV.",
+        "role": "Ingénieur intégrateur de solution IFF",
+        "score": 3.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "465cb858-4531-423a-ac92-2715f01f327c": {
@@ -164,6 +316,25 @@
         "verdict": "FAIL"
       }
     },
+    "586e9da3-aff5-4b68-a554-6e82f1380635": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier, hors cible IA/LLM ; profil gestion/finance attendu ; démarrage sept. 2027/janv. 2028 incompatible avec PFE de mars 2027.",
+        "role": "Auditeur",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "5ad8b626-e421-4dde-a0d0-1a05f27e4487": {
       "triage": {
         "company": "EY",
@@ -185,6 +356,25 @@
         "verdict": "FAIL"
       }
     },
+    "5d62d378-59eb-40e7-9bd8-5edc9e045b92": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Apps web avec IA générative intégrée ; React, JavaScript, Python, Docker et intégration LLM présents au CV ; durée de 4-5 mois à vérifier.",
+        "role": "Développeur de solutions numériques (App Web & IA)",
+        "score": 4.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
     "65206b02-f71a-4bf8-a779-be0aac66608a": {
       "triage": {
         "company": "Coca-Cola Europacific Partners",
@@ -199,6 +389,63 @@
         "reason": "Automatisme industriel et supervision d'usine, hors cible IA/LLM ; aucune compétence automates au CV. Gratification 1050-1400 € correcte.",
         "role": "Ingénieur automaticien",
         "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "670e8e32-5c20-4665-a367-d30911c91de5": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 5.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Gestion de projets digitaux UX/UI et production d'assets, profil école de commerce ; démarrage mars 2027 bon mais métier hors cible.",
+        "role": "Assistant Chef de projet digital",
+        "score": 2.8,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "699e4d2d-3e31-4dd4-a49a-bcf72539333c": {
+      "triage": {
+        "company": "AXA en France",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Projets comptables et spécifications fonctionnelles, profil gestion/finance ; Python mentionné en marge seulement, hors cible IA.",
+        "role": "Chargé d'études Projets Comptables et Transformations",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "6cac8540-3245-4f7e-bdcf-f928a17d88d0": {
+      "triage": {
+        "company": "Valeo",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Infrastructure réseau (LAN/WAN, switches, firewall) hors cible IA ; annonce de février 2026 visant une alternance dès septembre 2026, sans doute périmée.",
+        "role": "Apprenti ingénieur IS/IT",
+        "score": 2.7,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
@@ -225,6 +472,44 @@
         "verdict": "FAIL"
       }
     },
+    "84c37355-3294-4882-9ec6-cfe1cf05b300": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Intégration matérielle (3D, architecture électrique, réseau), profil électronique ; seuls C++/Python recoupent, pas de volet IA.",
+        "role": "Ingénieur Intégration plateforme drone et charge utile",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "8d2059ca-75d8-4d31-a509-663f9298353a": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Acquisition de données d'essais, base de données et CI/CD (LabVIEW) ; pipeline de données proche, mais pas d'IA ni de LLM.",
+        "role": "Ingénieur informatique industrielle Environnement essais",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "913a08d0-3b4c-4047-9a4b-036985b65365": {
       "triage": {
         "company": "EY",
@@ -243,6 +528,25 @@
         "soft_red_flags": [
           "Début novembre 2026, avant la disponibilité"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "995800f3-db88-497f-bc75-bb387362ddae": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Simulation électromagnétique (CST, hyperfréquences, antennes), spécialité totalement hors du parcours IA et cybersécurité.",
+        "role": "Ingénieur modélisation DREP/DAS champs proches",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -328,6 +632,44 @@
         "verdict": "MARGINAL"
       }
     },
+    "c8abf68a-1119-4b19-8ddb-2b8dc0421ff1": {
+      "triage": {
+        "company": "Banque de France",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "MOA fonctionnelle (spécifications, tests, support) avec un volet automatisation des tests par IA et Python ; cœur du poste éloigné des agents LLM.",
+        "role": "Assistant en maîtrise d'ouvrage",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "d51fbe45-aa8a-4eed-b4f3-28ad363b0cb1": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "IVV système classique (bancs de test, campagnes, rapports), profil électronique/informatique industrielle ; aucun volet IA.",
+        "role": "Ingénieur Validation Vérification et Intégration d'un système industriel critique",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "d5db54b5-cfb4-4a3c-85a2-116a41cd569b": {
       "triage": {
         "company": "EY",
@@ -368,6 +710,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "e13e8e46-b3c9-4030-be26-fb08906b8311": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Mise en place SharePoint et création de visuels Canva pour des équipes commerciales ; aucun lien avec l'IA ou les LLM.",
+        "role": "Création d'un espace collaboratif SharePoint",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "ec4a5de2-0c24-4e26-83f5-b1566cc38f54": {
       "triage": {
         "company": "EY",
@@ -406,6 +767,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "PASS"
+      }
+    },
+    "fe31327f-41eb-49dc-826d-c7af07a78f91": {
+      "triage": {
+        "company": "Valeo",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Projet/qualité industrielle en production série, profil électronique/mécanique/qualité ; aucun volet IA ; démarrage janvier 2027.",
+        "role": "Ingénieur Project/Quality Launch",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
       }
     }
   },
