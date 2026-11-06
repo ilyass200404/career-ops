@@ -1,5 +1,43 @@
 {
   "offers": {
+    "0080079f-30c8-4787-85eb-d0481d1d54e9": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 3.5,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Prototype IA + règles de détection d'anomalies en Python/C++ ; recoupe ML, détection d'anomalies et analyse d'erreurs du CV.",
+        "role": "Analyse intelligente et détection d'incohérences dans des données hétérogènes",
+        "score": 3.8,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "039068a7-8898-4635-8309-be6f959f9643": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outils d'automatisation (générateur C++ depuis JSON), intérêt IA demandé ; proche de la cible automatisation, Python/C++ au CV.",
+        "role": "Développement d'outils d'automatisation et d'optimisation des processus de développement",
+        "score": 3.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
     "0515727b-062b-46f0-92b3-5713dc947c18": {
       "triage": {
         "company": "EY",
@@ -41,6 +79,25 @@
         "verdict": "FAIL"
       }
     },
+    "0ef25663-f551-4a5b-842f-e4df4acdfe56": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conception de fonctions hyperfréquences microstrip/stripline sous ADS/HFSS : domaine électronique RF hors profil.",
+        "role": "Ingénieur hyperfréquence",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "10e30b60-5c51-4c21-998c-d313976df1a3": {
       "triage": {
         "company": "EY",
@@ -60,6 +117,25 @@
           "Début janvier 2027, avant la disponibilité (mars 2027)"
         ],
         "verdict": "FAIL"
+      }
+    },
+    "13847c2a-0785-4a0b-a640-ecc4d57b4afc": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "GRC OT/ICS et méthodes FAIR/IEC 62443 absentes du CV ; seule la piste d'automatisation par IA rejoint le profil.",
+        "role": "Ingénieur Cybersécurité - Analyse Quantitative des Risques",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "13fbc545-0b0a-4126-b4f8-ebab0523189e": {
@@ -198,6 +274,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "29ccc828-4489-4b68-ac12-a760d7a03209": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Méthodes industrielles et procédés de collage, profil généraliste industriel : aucun recoupement avec les cibles IA/LLM.",
+        "role": "Ingénieur méthodes",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7": {
       "checked": "2026-11-06 23:19",
       "triage": {
@@ -294,6 +389,25 @@
         "soft_red_flags": [
           "Début septembre 2027, après le diplôme"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "36cd6d92-9ced-42bc-8160-3df4bc19dbf8": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Architecture radar AESA, antennes et essais RF en laboratoire : aucune compétence correspondante dans le CV.",
+        "role": "Ingénieur hyperfréquence",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -394,6 +508,25 @@
         "verdict": "FAIL"
       }
     },
+    "46ee4f6d-07cc-461a-9a3d-0f8bd3091a4c": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conformité PASSI, veille réglementaire et rédaction documentaire : rôle GRC sans développement ni IA, hors cible.",
+        "role": "Ingénieur Cybersécurité - Gouvernance, Risque et Conformité / Qualification PASSI",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "4852930f-c99b-4761-aa7f-1051eabd5b7d": {
       "triage": {
         "company": "Thales",
@@ -451,6 +584,65 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
+      }
+    },
+    "59347b71-8c81-4885-908d-e32004e51d2c": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conseil en transformation SAP/ERP, profil école de commerce : hors cible malgré une gratification de 19 k€ annuels.",
+        "role": "Consultant(e) stagiaire en transformation ERP",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "59e4e821-1645-4ab5-a09a-ac445dc84e41": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Gouvernance des données cyber, volet IA secondaire ; parcours cybersécurité utile mais rôle GRC hors cible, habilitation défense exigée.",
+        "role": "Ingénieur Cybersécurité GRC",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "habilitation secret défense requise"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "59e93625-1fa0-46c6-9c39-34248d953eb0": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement Android/Kotlin et sécurité réseau, hors cible IA/LLM ; bases sécurité et réseaux partielles, gratification Thales correcte.",
+        "role": "Ingénieur Fullstack Mobile & Réseau",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "5ad8b626-e421-4dde-a0d0-1a05f27e4487": {
@@ -512,6 +704,27 @@
         "verdict": "FAIL"
       }
     },
+    "66381848-4672-4431-ad3a-093af0c6b78c": {
+      "triage": {
+        "company": "SFR",
+        "dimensions": {
+          "archetype": 3.5,
+          "comp": 4.0,
+          "cv_match": 3.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Prompts, évaluation d'un chat LLM et fonctions IA, mais modélisation BPMN dominante ; début le 1er janvier 2027 incompatible.",
+        "role": "Stagiaire BPMN & IA appliqués à l'expérience client B2B",
+        "score": 3.3,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début janvier 2027, avant la disponibilité de mars 2027"
+        ],
+        "verdict": "MARGINAL"
+      }
+    },
     "670e8e32-5c20-4665-a367-d30911c91de5": {
       "triage": {
         "company": "CHANEL",
@@ -545,6 +758,25 @@
         "reason": "Projets comptables et spécifications fonctionnelles, profil gestion/finance ; Python mentionné en marge seulement, hors cible IA.",
         "role": "Chargé d'études Projets Comptables et Transformations",
         "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "6bdbb8a5-f649-44b6-87c4-b1807d50ad90": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Python et réseaux de neurones mentionnés, mais cœur du stage en électromagnétisme RF bande Ku/Ka, hors profil.",
+        "role": "Ingénieur hyperfréquence",
+        "score": 2.7,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
@@ -629,6 +861,27 @@
         "verdict": "FAIL"
       }
     },
+    "8458e684-8de5-4dd4-8603-1ff2e569cc2b": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Commissariat aux comptes pour profils gestion/finance, début septembre 2027 ou janvier 2028 : hors cible et hors calendrier.",
+        "role": "Stage de fin d'études en Audit",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début septembre 2027 ou janvier 2028, hors fenêtre PFE"
+        ],
+        "verdict": "FAIL"
+      }
+    },
     "84c37355-3294-4882-9ec6-cfe1cf05b300": {
       "triage": {
         "company": "Thales",
@@ -643,6 +896,25 @@
         "reason": "Intégration matérielle (3D, architecture électrique, réseau), profil électronique ; seuls C++/Python recoupent, pas de volet IA.",
         "role": "Ingénieur Intégration plateforme drone et charge utile",
         "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "88eb27b3-a38a-4efa-9dde-93b9d28c647f": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Électronique RF analogique (PLL, ADS, instrumentation) : domaine sans lien avec le profil IA et cybersécurité.",
+        "role": "Ingénieur hyperfréquence",
+        "score": 2.5,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
@@ -765,6 +1037,27 @@
         "verdict": "FAIL"
       }
     },
+    "9cec7f8f-8cfb-45f1-bd84-006b7721d074": {
+      "triage": {
+        "company": "Hermès",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Dématérialisation Microsoft 365/Power BI, IA seulement en atout ; début en janvier 2027, hors cible IA générative.",
+        "role": "Chargé de Process Manager des Outils Numériques",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début janvier 2027, avant la disponibilité de mars 2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
     "9e99887e-a7c3-4740-99bb-ebd3bdc2dbab": {
       "triage": {
         "company": "BNP Paribas",
@@ -843,6 +1136,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "PASS"
+      }
+    },
+    "b2ca8a98-26d3-4c4c-a60a-b3c0a0aeaf21": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Modélisation SPICE/HFSS d'amplificateurs RF de puissance : électronique et physique, sans lien avec le profil IA.",
+        "role": "Ingénieur - Modélisation d'une chaine amplificatrice radiofréquence pour projets de fusion thermonucléaire",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
       }
     },
     "bba728c7-f806-4c31-b5ce-9f6111253938": {
@@ -961,6 +1273,46 @@
         "verdict": "FAIL"
       }
     },
+    "c5dfbda4-8600-4595-bfae-416204fedaf5": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Publication de contenus éditoriaux et suivi de plannings : rôle non technique, début en janvier incompatible avec mars 2027.",
+        "role": "Assistant(e) Chef de Projet Production Digitale et Publication",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début janvier 2027, avant la disponibilité de mars 2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "c6854f33-6233-4303-9527-cffb33862018": {
+      "triage": {
+        "company": "CMA CGM",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit interne financier pour profils Master audit/finance : aucun recoupement avec l'ingénierie IA.",
+        "role": "Audit Interne",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "c7a39877-f199-4d6c-9efe-86f506c7c665": {
       "triage": {
         "company": "EY",
@@ -1058,6 +1410,25 @@
         "verdict": "FAIL"
       }
     },
+    "dd4592d1-84fd-46ba-a568-145a1adc99e6": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Traitement d'images satellitaires en Rust ; ni Rust ni télédétection au CV, seul le traitement du signal recoupe.",
+        "role": "Ingénieur Développement d'algorithmes de qualité image pour données satellitaires",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "e138ab24-c002-44dc-bf41-a04a6ce4dc5c": {
       "triage": {
         "company": "Société Générale",
@@ -1134,6 +1505,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "MARGINAL"
+      }
+    },
+    "f6f87cd1-d083-4eaa-91bc-b1292da8e52e": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conception et déploiement d'agents IA, début mars 2027 sur 6 mois ; correspond aux agents LLM du CV, part no-code et adoption.",
+        "role": "Assistant IA & Agentic pour l'Employee Experience",
+        "score": 4.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
       }
     },
     "f9941e3f-9e50-4ee3-bb4a-53ebe70780a3": {
