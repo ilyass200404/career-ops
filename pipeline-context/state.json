@@ -1,4 +1,419 @@
 {
-  "offers": {},
-  "queue": []
+  "offers": {
+    "0515727b-062b-46f0-92b3-5713dc947c18": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Front-end React éloigné de la cible IA/LLM ; HTML/CSS/JS/React présents au CV, sans expérience front démontrée.",
+        "role": "Développeur Front ReactJS",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "0ae051ee-6b12-4fa4-bc5f-d88217117d57": {
+      "triage": {
+        "company": "KPMG France",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier sans lien avec l'IA ; profil finance/comptabilité exigé ; démarrage après la fin du cursus.",
+        "role": "Auditeur financier Stagiaire",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027/janvier 2028, après le diplôme (PFE visé mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "10e30b60-5c51-4c21-998c-d313976df1a3": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Paris, adjacent cyber mais hors cible IA ; démarrage janvier 2027 avant la disponibilité de mars.",
+        "role": "Stage en Audit des Systèmes d'Information",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début janvier 2027, avant la disponibilité (mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "155b96bd-a30d-4526-9663-9cf63e8b119b": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier banque/assurance sans lien avec l'IA ; profil gestion/finance ; démarrage après la fin du cursus.",
+        "role": "Stage Audit Financier - Secteurs Banque et Assurance",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "32bae8f6-2cfd-472f-bf88-592ecd492c7a": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.5,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "PFE développement backend sans IA dans les missions ; API REST/Docker et JavaScript au CV, mais pas Node/Nest/TypeScript.",
+        "role": "Développeuse/Développeur Back Node.js",
+        "score": 3.3,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "33ccd315-75be-4c7b-9db9-ad9477e68edb": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Toulouse, adjacent cyber mais hors cible IA ; démarrage septembre 2027 incompatible avec le PFE.",
+        "role": "Stage en Audit IT",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "465cb858-4531-423a-ac92-2715f01f327c": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier, hors cible IA/LLM ; démarrage septembre 2027 ou janvier 2028, après la fin du cursus.",
+        "role": "Stage de fin d'études en Audit",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027/janvier 2028, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "5269e275-6272-4c22-a6f1-6f3648177a25": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI/ISO 27001/SOC2, adjacent cyber mais hors cible IA ; démarrage septembre 2027 incompatible avec le calendrier PFE.",
+        "role": "Stage en Audit IT",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027, après le diplôme (PFE visé mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "5ad8b626-e421-4dde-a0d0-1a05f27e4487": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Nantes, adjacent cyber mais hors cible IA ; démarrage septembre 2027 ou janvier 2028 incompatible.",
+        "role": "Stage en Audit IT",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027/janvier 2028, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "65206b02-f71a-4bf8-a779-be0aac66608a": {
+      "triage": {
+        "company": "Coca-Cola Europacific Partners",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Automatisme industriel et supervision d'usine, hors cible IA/LLM ; aucune compétence automates au CV. Gratification 1050-1400 € correcte.",
+        "role": "Ingénieur automaticien",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "71c81cb5-dd6d-4746-acb6-cea8127c2e6b": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Marseille, adjacent cyber mais hors cible IA ; démarrage septembre 2027 incompatible avec le PFE.",
+        "role": "Stage en Audit IT",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "913a08d0-3b4c-4047-9a4b-036985b65365": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Reporting extra-financier (CSRD/ESRS) pour profil école de commerce/CCA, sans lien avec l'IA ; démarrage novembre 2026.",
+        "role": "Stage en Reporting de durabilité",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début novembre 2026, avant la disponibilité"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "a520836b-6b00-48d1-848b-44a6aa06b175": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier/commissariat aux comptes, hors cible IA ; profil gestion/finance attendu ; démarrage janvier 2027.",
+        "role": "Stage de fin d'études en Audit",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début janvier 2027, avant la disponibilité (mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "ab79020d-404f-49aa-a14a-093bf8b342b1": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Lyon, adjacent cyber mais hors cible IA ; démarrage septembre 2027 incompatible avec le PFE.",
+        "role": "Stage en Audit IT",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "c28a7dec-1ab5-4be6-9b4e-10154d2227a8": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement mobile hors cible IA ; C/C++/Java, Git et Linux couverts mais aucune expérience mobile ; session septembre 2026 dépassée.",
+        "role": "Développeuse/Développeur Mobile Software Engineer",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2026 déjà passé"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "c7a39877-f199-4d6c-9efe-86f506c7c665": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI secteur financier avec volet Trusted AI, Python et maturité cyber ; métier d'audit/conseil, pas de développement IA.",
+        "role": "Audit IT Stagiaires en Systèmes d'Informations",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "d5db54b5-cfb4-4a3c-85a2-116a41cd569b": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.5,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit SI à Lyon, adjacent cyber mais hors cible IA ; démarrage janvier 2027 avant la disponibilité de mars.",
+        "role": "Stage en Audit des Systèmes d'Information",
+        "score": 2.6,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début janvier 2027, avant la disponibilité (mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "e138ab24-c002-44dc-bf41-a04a6ce4dc5c": {
+      "triage": {
+        "company": "Société Générale",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Cyber gouvernance/conformité infra, adjacent au parcours cyber mais hors cible IA ; projet IDS pertinent, pas de volet LLM.",
+        "role": "Analyste Cybersécurité",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "ec4a5de2-0c24-4e26-83f5-b1566cc38f54": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": "Stage de césure uniquement, incompatible avec un PFE de dernière année",
+        "priority_override": false,
+        "reason": "Césure en audit financier : format incompatible avec le PFE recherché et métier hors cible IA.",
+        "role": "Stage de césure en Audit",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "Début septembre 2027/janvier 2028, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "f9941e3f-9e50-4ee3-bb4a-53ebe70780a3": {
+      "triage": {
+        "company": "Société Générale",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "DevOps cloud avec sujets possibles cas d'usage IA et bots ML ; Python, Docker, Linux couverts, manquent Kubernetes/Terraform/OpenStack.",
+        "role": "Devops Cloud Infra",
+        "score": 3.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    }
+  },
+  "queue": [],
+  "weights": {
+    "archetype": 0.35,
+    "comp": 0.25,
+    "cv_match": 0.15,
+    "location": 0.25
+  }
 }
