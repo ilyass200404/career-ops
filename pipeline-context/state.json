@@ -961,6 +961,11 @@
       }
     },
     "5d62d378-59eb-40e7-9bd8-5edc9e045b92": {
+      "pipeline": {
+        "date": "2026-11-06 23:59",
+        "log": "/data/logs/20261106-235936-01-thales-developpeur-de-solutions-numeriqu.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
