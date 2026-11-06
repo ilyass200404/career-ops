@@ -1997,9 +1997,48 @@
     },
     "f6f87cd1-d083-4eaa-91bc-b1292da8e52e": {
       "pipeline": {
-        "date": "2026-11-06 23:47",
+        "cost_usd": 3.0034436999999996,
+        "date": "2026-11-06 23:52",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/003-chanel-2026-11-06.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-003-chanel-2026-11-06.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-003-chanel-2026-11-06.tex"
+          },
+          {
+            "kind": "Interview prep",
+            "path": "/tmp/career-ops/interview-prep/story-bank.md"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/chanel-stage-assistant-ia-agentic-employee-experience.md"
+          }
+        ],
         "log": "/data/logs/20261106-234748-01-chanel-assistant-ia-agentic-pour-l-emplo.jsonl",
-        "status": "interrupted"
+        "minutes": 5.1,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas ; l'évaluation s'est appuyée sur les cibles de config/profile.yml. Voulez-vous compléter modes/_profile.md ?",
+          "Accroche du CV : proposition de remplacer « automatisation de conception » par « assistants et agents IA pour les utilisateurs métier » dans l'en-tête du template pour cette offre (non appliquée).",
+          "Animation et présentation : avez-vous une expérience réelle d'ateliers, de démonstrations, de soutenances ou de formation à ajouter à cv.md (via /career-ops add) ?",
+          "Contrôle de structure LaTeX : le template personnalisé utilise \\section*{ et generate-latex.mjs compte les \\section{ ; PDF compilé avec --compile-only. Adapter le template ou garder ce mode ?"
+        ],
+        "report": "/tmp/career-ops/reports/003-chanel-2026-11-06.md",
+        "score": 4.2,
+        "session_id": "30e2d37d-d5d4-481a-8e06-2ec3c03356a5",
+        "status": "done",
+        "summary": "CHANEL, stage Assistant IA & Agentic (Employee Experience, Parfums Beauté) : 4.2/5, Postuler — correspond à la cible « assistants et agents IA » et à la disponibilité 6 mois dès mars 2027 ; offre active sur le Workday employeur (JOBREQ00118626), CV LaTeX compilé (1 page) et ligne #3 ajoutée au tracker. Écarts : animation d'ateliers, no code / low code, gouvernance des agents ; gratification non indiquée.",
+        "tracker": {
+          "num": "3",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "CHANEL",
