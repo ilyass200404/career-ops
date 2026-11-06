@@ -120,6 +120,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "1dda3314-148f-4e5a-8c2d-6ac69a906440": {
+      "triage": {
+        "company": "Dassault Systèmes",
+        "dimensions": {
+          "archetype": 5.0,
+          "comp": 4.0,
+          "cv_match": 5.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Assistant IA conversationnel : LLM, appel d'outils, RAG ancré, évaluation des réponses, C++/Python. Correspondance directe avec Zelkio et le copilote RAG.",
+        "role": "IA – Qualité de conception GEN7",
+        "score": 4.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
     "225720a9-9595-4007-b98b-17336e413956": {
       "triage": {
         "company": "Thales",
@@ -158,6 +177,25 @@
         "verdict": "FAIL"
       }
     },
+    "28205705-6333-482a-b264-5d5368939aa3": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Génération de code embarqué depuis Matlab (temps réel, ADA) : automatisation proche, mais compétences embarquées absentes du CV.",
+        "role": "Ingénieur génération automatique de code embarqué pour récepteur GNSS",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7": {
       "checked": "2026-11-06 23:19",
       "triage": {
@@ -173,6 +211,44 @@
         "reason": "Cible directe : assistant GenAI, prompt engineering, RAG, évaluation LLM ; projets RAG et agents du CV alignés ; TypeScript/Node.js à renforcer.",
         "role": "IA Agent for IVVQ management",
         "score": 4.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "2cb0987a-3de7-4840-8c0a-16a0599ec737": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Due diligence financière pour profil école de commerce ; aucun lien avec l'IA. Dates de début incohérentes dans l'annonce.",
+        "role": "Consultant en Transaction Services",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "2f1085d1-2445-4d96-bab8-69fab1c154e0": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 5.0,
+          "comp": 4.0,
+          "cv_match": 5.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Agents IA multi-agents, LangGraph, RAG, Python, Docker : cible exacte. Télétravail partiel. Vérifier « fin d'études pour 2026 » face au départ 03/2027.",
+        "role": "Développement en Intelligence Artificielle",
+        "score": 4.5,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "PASS"
@@ -256,6 +332,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "428c75bd-12b1-4148-bb0b-a1caac747d06": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Cas d'usage et prototypes GenAI intéressants, mais poste de business analyst (ateliers, processus, changement) ; anglais C1 exigé.",
+        "role": "Business Analyst IA Générative",
+        "score": 3.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "42d8418c-2bcd-4d33-bb74-10c0a07393d0": {
       "triage": {
         "company": "Thales",
@@ -293,6 +388,25 @@
         "soft_red_flags": [
           "Début septembre 2027/janvier 2028, après le diplôme"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "4852930f-c99b-4761-aa7f-1051eabd5b7d": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Automatique et estimation d'état (Kalman, MATLAB/Simulink) : hors cible IA/LLM ; seul le filtrage du signal est couvert.",
+        "role": "Ingénieur guidage terminal d'un drone UAV",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -452,6 +566,25 @@
         "verdict": "FAIL"
       }
     },
+    "6e354883-9621-4453-a2cc-43df187bc766": {
+      "triage": {
+        "company": "Carrefour France",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 3.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit interne pour profil finance ou contrôle, déplacements à prévoir ; aucune correspondance avec le profil IA.",
+        "role": "Auditeur Interne Groupe",
+        "score": 2.3,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "71c81cb5-dd6d-4746-acb6-cea8127c2e6b": {
       "checked": "2026-11-06 23:20",
       "triage": {
@@ -471,6 +604,25 @@
         "soft_red_flags": [
           "Début septembre 2027, après le diplôme"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "7d6bdd96-91df-4121-8f02-485c346bf8e3": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Normes CSRD/ESRS pour profil audit ou finance durable ; début novembre 2026, incompatible avec le PFE de mars 2027.",
+        "role": "Reporting de durabilité",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -533,6 +685,25 @@
         "verdict": "FAIL"
       }
     },
+    "92607f3b-c95e-4b10-b6cb-3faf43390683": {
+      "triage": {
+        "company": "L'Oréal Groupe",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 5.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Amélioration continue en usine (5S, maintenance CILT) : hors discipline malgré une gratification de 1700 €.",
+        "role": "Ingénieur Performance",
+        "score": 2.8,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "995800f3-db88-497f-bc75-bb387362ddae": {
       "checked": "2026-11-06 23:20",
       "triage": {
@@ -551,6 +722,63 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
+      }
+    },
+    "999994c0-aceb-4574-a1c3-cadfe4781222": {
+      "triage": {
+        "company": "Société Générale",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement Java pour le calcul de risque de marché : Java couvert, mais ni IA ni LLM, et domaine finance absent du CV.",
+        "role": "Développeur Fonctionnel Java Spring Boot",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "9b472c5c-e69b-4f09-94cd-42fdc7544418": {
+      "triage": {
+        "company": "BNP Paribas",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 5.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "KPI, tableaux de bord Tableau/Power BI et événementiel interne : hors cible IA. Bonne gratification, début janvier 2027 trop tôt.",
+        "role": "Data Analyst Performance & Business Intelligence",
+        "score": 2.9,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "9e99887e-a7c3-4740-99bb-ebd3bdc2dbab": {
+      "triage": {
+        "company": "BNP Paribas",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 5.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Data analyse (Dataiku, SQL, Python, Power BI) sans IA générative ; gratification 1250-2100 €, début février 2027.",
+        "role": "Data Analyst",
+        "score": 3.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "a520836b-6b00-48d1-848b-44a6aa06b175": {
@@ -595,6 +823,82 @@
         "verdict": "FAIL"
       }
     },
+    "abde9334-0fae-4049-8ebc-7a2506638b14": {
+      "triage": {
+        "company": "Dassault Systèmes",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "PoC IA de recommandation après analyse LCA, proche de l'automatisation de conception ; ML/data science partiellement couverts, peu de LLM explicite.",
+        "role": "Ingénieur IA et Eco-design",
+        "score": 3.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "bba728c7-f806-4c31-b5ce-9f6111253938": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Microservices PaaS (Go, Rust, Kubernetes, Helm) dans un contexte cyber : Docker, React et cyber couverts, IA secondaire.",
+        "role": "Ingénieur logiciel PaaS",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "c14c111a-c192-4622-b68f-05274a303afd": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Scénarios de formation FMS pour pilotes, avionique et simulateurs de vol : hors archétypes, compétences absentes du CV.",
+        "role": "Ingénieur concepteur de scénarios d'entraînement vol",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "c24a7e2d-3844-417a-94b2-dcf04589523a": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Traitement du signal GNSS sous Matlab : bases de filtrage présentes, mais ni IA ni Matlab ; hors cible.",
+        "role": "Ingénieur amélioration de techniques d'antibrouillage pour récepteur GNSS",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "c28a7dec-1ab5-4be6-9b4e-10154d2227a8": {
       "triage": {
         "company": "EY",
@@ -613,6 +917,44 @@
         "soft_red_flags": [
           "Début septembre 2026 déjà passé"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "c2f4f2bc-397d-4687-aac0-2c9013d464d9": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conception, déploiement et évaluation d'outils d'IA agentique en Python, en PFE. Bon alignement avec les agents LLM, malgré une annonce peu détaillée.",
+        "role": "Évaluation de nouveaux outils d'ingénierie à base d'IA agentique",
+        "score": 4.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "c43172ba-97a4-4fbc-b539-550d2077b615": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Recueil de besoins, cahiers de tests, transformation supply chain : rôle de business analyst sans développement IA.",
+        "role": "Business Analyst",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -652,6 +994,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "MARGINAL"
+      }
+    },
+    "cc9df3a4-0ae4-4637-adaf-0ea658a02bd1": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Business analysis et conduite du changement, sans développement IA ; anglais C1 exigé. Hors des archétypes visés.",
+        "role": "Business Analyst Transformation SI",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
       }
     },
     "d51fbe45-aa8a-4eed-b4f3-28ad363b0cb1": {
@@ -751,6 +1112,25 @@
           "Début septembre 2027/janvier 2028, après le diplôme"
         ],
         "verdict": "FAIL"
+      }
+    },
+    "ee34bbe5-39dd-4746-bc58-c115d8efe2b9": {
+      "triage": {
+        "company": "Société Générale",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "SRE : automatisation du provisioning, du monitoring et de la CI/CD. Python, Docker, Linux et ELK couverts, mais pas d'IA.",
+        "role": "Ingénieur fiabilité des sites",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "f9941e3f-9e50-4ee3-bb4a-53ebe70780a3": {
