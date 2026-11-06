@@ -262,6 +262,11 @@
           "status": "Evaluated"
         }
       },
+      "review": {
+        "date": "2026-11-06 23:36",
+        "note": "",
+        "status": "validated"
+      },
       "triage": {
         "company": "Dassault Systèmes",
         "dimensions": {
