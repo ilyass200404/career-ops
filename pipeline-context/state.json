@@ -79,6 +79,25 @@
         "verdict": "FAIL"
       }
     },
+    "0bcb57ab-3739-4208-bdfd-d04e1ddf99ba": {
+      "triage": {
+        "company": "Natixis",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Doublon de l'offre BSM : automatisation DevOps et Jenkins, hors IA générative ; recoupement partiel avec Python, Linux et Docker.",
+        "role": "Ingénieur Automatisation Applicative",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "0ef25663-f551-4a5b-842f-e4df4acdfe56": {
       "triage": {
         "company": "Thales",
@@ -217,6 +236,25 @@
         "verdict": "PASS"
       }
     },
+    "2009a68d-2466-40a9-9352-262399a69e3c": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Application web Java/Spring Boot sur cloud AWS/Azure, hors cible IA ; Spring Boot absent du CV, notions de cloud AWS seulement.",
+        "role": "Développeur Java",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "225720a9-9595-4007-b98b-17336e413956": {
       "triage": {
         "company": "Thales",
@@ -236,6 +274,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "24aacfe3-4dc3-47e4-a4b7-bab6cd907664": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Business analyse et pilotage de projet SI, hors cible développement IA/LLM ; seule l'analyse du besoin métier recoupe le CV.",
+        "role": "Business Analyst",
+        "score": 2.7,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "24e91500-e7cf-4ba0-8121-7f9f323355c1": {
       "triage": {
         "company": "Thales",
@@ -250,6 +307,65 @@
         "reason": "Ingénierie système de tests de défense, stage Bac+4 de 4 mois ; ni IA ni développement, hors cible PFE de 6 mois.",
         "role": "Architecture de test",
         "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "24fb9ac8-5c2a-4afa-b707-9108c3680e2a": {
+      "triage": {
+        "company": "Natixis",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Doublon de l'offre Valuation Group : IA/ML en valorisation, mais la connaissance des produits dérivés exigée manque au CV.",
+        "role": "Développeur Python Finance",
+        "score": 3.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "26b0c170-6bdc-4887-8ae0-15531f7f7186": {
+      "triage": {
+        "company": "EY",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier, hors cible IA/LLM ; profil commerce/gestion attendu ; début septembre 2027 ou janvier 2028, incompatible avec le PFE de mars 2027.",
+        "role": "Audit",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début incompatible avec la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "27d13ea7-d446-4fc0-900b-aecbdabf16c4": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Stage de recherche en traitement du signal (MIMO, OFDM, Matlab), hors cible IA/LLM ; seules des bases de filtrage du signal recoupent le CV.",
+        "role": "Ingénieur traitement du signal radar & communication",
+        "score": 2.7,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
@@ -449,6 +565,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "40d1fcf7-8616-4a66-b626-28003688a7f0": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Deep learning et vision par ordinateur, cible voisine sans IA générative ; PyTorch acquis, mais aucune expérience en recalage d'images. Pile au seuil.",
+        "role": "Ingénieur traitement d'images satellitaires & IA",
+        "score": 3.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
     "428c75bd-12b1-4148-bb0b-a1caac747d06": {
       "triage": {
         "company": "Capgemini",
@@ -546,6 +681,25 @@
         "verdict": "FAIL"
       }
     },
+    "49f43095-fee3-49f9-a9b5-6881d1a87b02": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement Java/Angular en ESN, avec usage d'outils d'IA générative seulement ; Java figure dans les compétences sans projet qui le prouve.",
+        "role": "Développeur Java",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "5269e275-6272-4c22-a6f1-6f3648177a25": {
       "triage": {
         "company": "EY",
@@ -563,6 +717,48 @@
         "scored": "2026-11-06",
         "soft_red_flags": [
           "Début septembre 2027, après le diplôme (PFE visé mars 2027)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "52f7410d-51fd-4b9b-bd91-5b91ec3ddf16": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Analyse d'indicateurs mode sous Excel et Power BI, hors cible IA ; début janvier 2027, avant la disponibilité de mars.",
+        "role": "Analyste Filière Matières et Merceries",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début incompatible avec la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "57a8a4be-3297-4568-85e8-2bb84cefeab6": {
+      "triage": {
+        "company": "Dassault Systèmes",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Recherche en santé publique et biomédecine, hors cible ; profil santé/pharmacie exigé ; début janvier 2027.",
+        "role": "Construction d'un modèle de décision médicale partagée",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début incompatible avec la disponibilité 03/2027"
         ],
         "verdict": "FAIL"
       }
@@ -680,6 +876,25 @@
         "reason": "Apps web avec IA générative intégrée ; React, JavaScript, Python, Docker et intégration LLM présents au CV ; durée de 4-5 mois à vérifier.",
         "role": "Développeur de solutions numériques (App Web & IA)",
         "score": 4.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "636bfd99-8e0a-4aae-b3cd-cadfe77a321d": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outil d'ingénierie avec IA générative, Python avancé, Git/CI/CD ; la simulation physique radar reste un manque ; gratification Thales estimée au-dessus du plancher.",
+        "role": "Génération de scénarios de test radar par IA",
+        "score": 3.9,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "PASS"
@@ -842,6 +1057,25 @@
         "verdict": "FAIL"
       }
     },
+    "7bcc1c27-2c4b-43dd-9929-c65edfc559ab": {
+      "triage": {
+        "company": "Natixis",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "DevOps et scripting (Jenkins, XLDeploy), hors IA générative ; Python, Linux, Docker et Git recoupent en partie ; indemnité estimée correcte.",
+        "role": "Ingénieur Automatisation Applicative",
+        "score": 3.2,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "7d6bdd96-91df-4121-8f02-485c346bf8e3": {
       "triage": {
         "company": "EY",
@@ -901,6 +1135,25 @@
         "verdict": "FAIL"
       }
     },
+    "85fedc6c-20f1-4731-8737-c62148b69451": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Fullstack Java/Spring/Angular avec DevOps, sans IA ; Docker et Git recoupent, Spring et Angular absents du CV.",
+        "role": "Développeur Java",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "88eb27b3-a38a-4efa-9dde-93b9d28c647f": {
       "triage": {
         "company": "Thales",
@@ -915,6 +1168,25 @@
         "reason": "Électronique RF analogique (PLL, ADS, instrumentation) : domaine sans lien avec le profil IA et cybersécurité.",
         "role": "Ingénieur hyperfréquence",
         "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "8cbbf22e-01c9-4471-84ef-ab756b268aec": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Conseil métier et gestion de backlog, hors cible technique IA ; aucune expérience en gestion de projet ou transformation digitale dans le CV.",
+        "role": "Consultant métier",
+        "score": 2.7,
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
@@ -977,6 +1249,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
+      }
+    },
+    "988091c5-7c3b-4eb9-adb9-2f775a3c6f3b": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement Java/Angular en ESN, avec usage d'outils d'IA générative seulement ; peu d'expérience Java démontrée.",
+        "role": "Développeur Java",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
       }
     },
     "995800f3-db88-497f-bc75-bb387362ddae": {
@@ -1138,6 +1429,27 @@
         "verdict": "PASS"
       }
     },
+    "b0cec7dc-a8d5-41e2-934f-9d19eac7b414": {
+      "triage": {
+        "company": "CHANEL",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Documentation fonctionnelle et formation digitale en DSI, hors cible développement IA ; début janvier 2027.",
+        "role": "Learning SI",
+        "score": 2.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début incompatible avec la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
     "b2ca8a98-26d3-4c4c-a60a-b3c0a0aeaf21": {
       "triage": {
         "company": "Thales",
@@ -1157,6 +1469,25 @@
         "verdict": "FAIL"
       }
     },
+    "b596f240-5dca-42b8-aabe-a031e51ea391": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Fullstack Java/Angular en Scrum, sans composante IA ; Java et Docker figurent au CV, Angular absent.",
+        "role": "Développeur Java",
+        "score": 3.0,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "bba728c7-f806-4c31-b5ce-9f6111253938": {
       "triage": {
         "company": "Thales",
@@ -1174,6 +1505,27 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "MARGINAL"
+      }
+    },
+    "be699f6e-24ce-418c-a3d3-d127fec70873": {
+      "triage": {
+        "company": "Bpifrance",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Analyse stratégique et reporting, avec une composante IA marginale ; hors cible développement ; début janvier 2027.",
+        "role": "Analyste stratégie innovation deeptech",
+        "score": 2.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [
+          "début incompatible avec la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
       }
     },
     "c14c111a-c192-4622-b68f-05274a303afd": {
@@ -1370,6 +1722,25 @@
         "verdict": "FAIL"
       }
     },
+    "d1afb533-c85d-457f-8c11-e495a9f96ba5": {
+      "triage": {
+        "company": "Natixis",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outils Python et prototypes IA/ML en valorisation ; la connaissance des produits dérivés exigée est absente du CV ; début mars 2027 compatible.",
+        "role": "Développeur Python Finance",
+        "score": 3.4,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "d51fbe45-aa8a-4eed-b4f3-28ad363b0cb1": {
       "triage": {
         "company": "Thales",
@@ -1465,6 +1836,25 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "FAIL"
+      }
+    },
+    "ec42f500-9439-4e50-b966-2c97bf8c587d": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 5.0,
+          "comp": 4.0,
+          "cv_match": 5.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Correspondance directe : agent IA, LLM, ingestion de corpus documentaire, tests de pipelines agentiques en Python, CI/CD GitLab ; les projets RAG et LangGraph du CV y répondent.",
+        "role": "Développement et amélioration d'un agent IA",
+        "score": 4.5,
+        "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "PASS"
       }
     },
     "ec4a5de2-0c24-4e26-83f5-b1566cc38f54": {
