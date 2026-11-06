@@ -498,6 +498,11 @@
       }
     },
     "2f1085d1-2445-4d96-bab8-69fab1c154e0": {
+      "pipeline": {
+        "date": "2026-11-06 23:38",
+        "log": "/data/logs/20261106-233853-01-capgemini-developpement-en-intelligence-.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Capgemini",
         "dimensions": {
