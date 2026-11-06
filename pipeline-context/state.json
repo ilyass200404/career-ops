@@ -219,9 +219,48 @@
     },
     "1dda3314-148f-4e5a-8c2d-6ac69a906440": {
       "pipeline": {
-        "date": "2026-11-06 23:26",
+        "cost_usd": 3.5525565999999995,
+        "date": "2026-11-06 23:32",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/001-dassault-systemes-2026-11-06.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-001-dassault-systemes-2026-11-06.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-001-dassault-systemes-2026-11-06.tex"
+          },
+          {
+            "kind": "Interview prep",
+            "path": "/tmp/career-ops/interview-prep/story-bank.md"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/dassault-systemes-stage-ia-qualite-de-conception-gen7.md"
+          }
+        ],
         "log": "/data/logs/20261106-232612-01-dassault-systemes-ia-qualite-de-concepti.jsonl",
-        "status": "interrupted"
+        "minutes": 6.4,
+        "pending": [
+          "modes/_profile.md et portals.yml absents (onboarding incomplet) : l'archétype a été évalué contre les cibles de config/profile.yml. Compléter modes/_profile.md ?",
+          "Niveau d'anglais : le template CV indique « Anglais (intermédiaire) », l'offre demande un « Anglais technique courant ». Avez-vous un niveau plus élevé ou un score TOEIC/IELTS à ajouter ?",
+          "C++ : présent seulement dans la liste de compétences. Avez-vous un projet C++ réel à ajouter à cv.md ?",
+          "Date de début : l'offre ne la précise pas (4-6 mois) ; votre recherche vise 03/2027 pour 6 mois. À confirmer avec le recruteur."
+        ],
+        "report": "/tmp/career-ops/reports/001-dassault-systemes-2026-11-06.md",
+        "score": 4.4,
+        "session_id": "23c0d6fe-a71e-4aef-9797-87dd432cf6bf",
+        "status": "done",
+        "summary": "Stage IA Qualité de conception GEN7 chez Dassault Systèmes (Vélizy) évalué à 4.4/5, décision Postuler. L'offre est confirmée active sur 3ds.com (réf. 549479). Le CV LaTeX adapté tient sur 1 page et la ligne #1 est ajoutée au tracker. Les écarts à préparer sont le C++ et l'anglais courant.",
+        "tracker": {
+          "num": "1",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Dassault Systèmes",
