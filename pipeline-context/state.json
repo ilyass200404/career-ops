@@ -2004,7 +2004,13 @@
       }
     }
   },
-  "queue": [],
+  "queue": [
+    {
+      "added": "2026-11-06 23:38",
+      "id": "2f1085d1-2445-4d96-bab8-69fab1c154e0",
+      "rerun": false
+    }
+  ],
   "weights": {
     "archetype": 0.35,
     "comp": 0.25,
