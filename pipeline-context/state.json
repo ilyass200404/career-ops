@@ -218,6 +218,11 @@
       }
     },
     "1dda3314-148f-4e5a-8c2d-6ac69a906440": {
+      "pipeline": {
+        "date": "2026-11-06 23:26",
+        "log": "/data/logs/20261106-232612-01-dassault-systemes-ia-qualite-de-concepti.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Dassault Systèmes",
         "dimensions": {
