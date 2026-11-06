@@ -2049,7 +2049,13 @@
       }
     }
   },
-  "queue": [],
+  "queue": [
+    {
+      "added": "2026-11-06 23:45",
+      "id": "ec42f500-9439-4e50-b966-2c97bf8c587d",
+      "rerun": false
+    }
+  ],
   "weights": {
     "archetype": 0.35,
     "comp": 0.25,
