@@ -499,9 +499,49 @@
     },
     "2f1085d1-2445-4d96-bab8-69fab1c154e0": {
       "pipeline": {
-        "date": "2026-11-06 23:38",
+        "cost_usd": 3.7319503,
+        "date": "2026-11-06 23:45",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/002-capgemini-2026-11-06.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-002-capgemini-2026-11-06.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-002-capgemini-2026-11-06.tex"
+          },
+          {
+            "kind": "Interview prep",
+            "path": "/tmp/career-ops/interview-prep/story-bank.md"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/capgemini-stage-developpement-en-intelligence-artificielle.md"
+          }
+        ],
         "log": "/data/logs/20261106-233853-01-capgemini-developpement-en-intelligence-.jsonl",
-        "status": "interrupted"
+        "minutes": 6.5,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas ; l'archétype a été évalué contre les cibles de config/profile.yml. Voulez-vous compléter modes/_profile.md ?",
+          "Année du stage : le texte JobTeaser dit « stage de fin d'études pour 2026 » alors que vous visez 03/2027 pour 6 mois ; la page employeur ne donne pas d'année. À confirmer avec le recruteur.",
+          "Niveau d'anglais : l'offre demande B2 minimum, le CV indique « Anglais (intermédiaire) ». Avez-vous un niveau B2 confirmé ou un score TOEIC/IELTS à ajouter ?",
+          "Accroche du CV : remplacer « automatisation de conception » par « IA générative » dans l'en-tête de votre template pour cette offre ? Non appliqué.",
+          "Template LaTeX : generate-latex.mjs compte les \\section{ alors que votre template utilise \\section*{ ; le PDF a été compilé avec --compile-only (contrôle des faits exécuté, verdict warn). Adapter le template ou garder ce mode ?"
+        ],
+        "report": "/tmp/career-ops/reports/002-capgemini-2026-11-06.md",
+        "score": 4.3,
+        "session_id": "cf4b1b4b-7354-41f1-9eba-391a8c25d310",
+        "status": "done",
+        "summary": "Le stage Capgemini Toulouse (agents IA, LangGraph, RAG, Docker, API REST) est noté 4.3/5, décision Postuler. L'offre employeur est active (réf. 382249, publiée le 28/10/2026). Le CV LaTeX d'une page a été généré et la ligne #2 ajoutée au tracker ; l'année « 2026 » du texte JobTeaser et la gratification restent à confirmer.",
+        "tracker": {
+          "num": "2",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Capgemini",
