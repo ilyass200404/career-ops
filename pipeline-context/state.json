@@ -1996,6 +1996,11 @@
       }
     },
     "f6f87cd1-d083-4eaa-91bc-b1292da8e52e": {
+      "pipeline": {
+        "date": "2026-11-06 23:47",
+        "log": "/data/logs/20261106-234748-01-chanel-assistant-ia-agentic-pour-l-emplo.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "CHANEL",
         "dimensions": {
