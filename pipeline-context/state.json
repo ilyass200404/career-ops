@@ -1987,6 +1987,11 @@
       }
     },
     "ec42f500-9439-4e50-b966-2c97bf8c587d": {
+      "pipeline": {
+        "date": "2026-11-07 00:09",
+        "log": "/data/logs/20261107-000938-02-thales-developpement-et-amelioration-d-u.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
