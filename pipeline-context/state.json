@@ -1721,8 +1721,8 @@
     },
     "c2f4f2bc-397d-4687-aac0-2c9013d464d9": {
       "pipeline": {
-        "date": "2026-11-06 23:52",
-        "log": "/data/logs/20261106-234748-02-thales-evaluation-de-nouveaux-outils-d-i.jsonl",
+        "date": "2026-11-07 00:09",
+        "log": "/data/logs/20261107-000938-01-thales-evaluation-de-nouveaux-outils-d-i.jsonl",
         "status": "interrupted"
       },
       "triage": {
