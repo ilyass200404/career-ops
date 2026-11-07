@@ -2282,11 +2282,6 @@
   },
   "queue": [
     {
-      "added": "2026-11-07 13:39",
-      "id": "ec42f500-9439-4e50-b966-2c97bf8c587d",
-      "rerun": false
-    },
-    {
       "added": "2026-11-07 00:09",
       "id": "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7",
       "rerun": true
