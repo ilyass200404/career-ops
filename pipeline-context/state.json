@@ -1062,9 +1062,48 @@
     },
     "636bfd99-8e0a-4aae-b3cd-cadfe77a321d": {
       "pipeline": {
-        "date": "2026-11-07 13:45",
+        "cost_usd": 3.1836764000000004,
+        "date": "2026-11-07 13:51",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/006-thales-2026-11-07.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-006-thales-2026-11-07.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-006-thales-2026-11-07.tex"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/thales-stage-generation-scenarios-test-radar-ia.md"
+          }
+        ],
         "log": "/data/logs/20261107-133935-02-thales-generation-de-scenarios-de-test-r.jsonl",
-        "status": "interrupted"
+        "minutes": 5.7,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas (onboarding non terminé), l'archétype a été évalué contre les cibles de config/profile.yml. Voulez-vous compléter modes/_profile.md ?",
+          "CI/CD, tests unitaires, revue de code : demandés par l'offre mais absents de cv.md (seul Git y figure). Avez-vous une pratique réelle (GitLab CI, pytest, projets ENSICAEN) à ajouter à cv.md ?",
+          "Simulation et contraintes physiques : avez-vous un projet de simulation ou de modélisation physique à ajouter à cv.md ?",
+          "Anglais : l'offre demande d'être « à l'aise en anglais ». cv.md ne donne aucun niveau et votre CV d'origine indique « intermédiaire ». Quel niveau voulez-vous afficher ?",
+          "Domaine défense et mobilité : site radar militaire à Limours (Essonne), loin de Caen. Acceptez-vous le domaine, une éventuelle procédure d'accès au site et un déménagement ?",
+          "Date de début : l'offre n'en fixe pas, et votre recherche vise mars 2027 pour 6 mois. À confirmer avec le recruteur.",
+          "Gratification : le montant n'est pas publié. Il faut confirmer qu'il atteint au moins le minimum de 900 € fixé dans votre profil.",
+          "Contrôle du CV LaTeX : le PDF a été compilé avec --compile-only, car le validateur ne reconnaît pas les \\section* du template personnalisé. Les nombres n'ont pas été vérifiés automatiquement en français et config/cv-facts.json est absent. Voulez-vous adapter le template ou garder ce mode ?"
+        ],
+        "report": "/tmp/career-ops/reports/006-thales-2026-11-07.md",
+        "score": 4,
+        "session_id": "1c53f784-8697-4a81-9432-0207d689f052",
+        "status": "done",
+        "summary": "Thales, stage « Génération de scénarios de test radar par IA » à Limours (réf. R0343874) : offre active chez l'employeur (affichée le 2026-11-03), score 4.0/5, décision « Apply ». Python et l'IA générative appliquée couvrent les exigences critiques ; la simulation à contraintes physiques et la CI/CD avec tests restent à démontrer. Le CV LaTeX d'une page est généré (output/cv-ilyass-afroukh-006-thales-2026-11-07.pdf, contrôle des faits « warn », sans blocage) et la ligne #6 est ajoutée au tracker (statut Evaluated). Aucune candidature n'a été envoyée.",
+        "tracker": {
+          "num": "6",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Thales",
