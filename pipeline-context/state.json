@@ -512,9 +512,47 @@
     "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7": {
       "checked": "2026-11-06 23:19",
       "pipeline": {
-        "date": "2026-11-07 14:00",
+        "cost_usd": 2.9008915999999996,
+        "date": "2026-11-07 14:05",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/009-thales-2026-11-07.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-009-thales-2026-11-07.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-009-thales-2026-11-07.tex"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/thales-stage-ia-agent-ivvq-management.md"
+          }
+        ],
         "log": "/data/logs/20261107-133935-05-thales-ia-agent-for-ivvq-management.jsonl",
-        "status": "interrupted"
+        "minutes": 4.9,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas (onboarding non terminé). Voulez-vous compléter modes/_profile.md ?",
+          "TypeScript et Node.js : l'offre les exige (« Maîtrise de JavaScript / TypeScript et de Node.js »), mais cv.md ne contient que JavaScript, HTML, CSS et React. Avez-vous une pratique réelle à ajouter à cv.md ? Rien n'a été ajouté au CV.",
+          "Prompt Engineering : c'est le cœur du stage, mais cv.md ne le nomme pas. Avez-vous comparé des prompts chez Zelkio ou pour le copilote ? Si oui, on peut ajouter une phrase à cv.md une fois que vous l'aurez validée.",
+          "Mobilité : le stage est à La Ciotat (Bouches-du-Rhône), loin de Caen. Un déménagement vous convient-il ?",
+          "Date de début : l'offre ne fixe pas de date (4 à 6 mois), et vous visez 03/2027 pour 6 mois. À confirmer avec le recruteur.",
+          "Priorité entre les offres Thales : #5 (3.8), #6 (4.0), #7 (4.4), #8 (4.3) et #9 (4.2) sont toutes au statut Evaluated. Auxquelles voulez-vous postuler ?",
+          "Contrôle du CV LaTeX : le PDF a été compilé avec --compile-only, car le validateur ne reconnaît pas les \\section* du template personnalisé. Le contrôle des faits a donné « warn », sans blocage : les nombres en français n'ont pas pu être vérifiés automatiquement, et config/cv-facts.json est absent. Le CV garde « Anglais (intermédiaire) »."
+        ],
+        "report": "/tmp/career-ops/reports/009-thales-2026-11-07.md",
+        "score": 4.2,
+        "session_id": "05a46b98-f41a-4377-ae53-90d4cc58cdde",
+        "status": "done",
+        "summary": "Thales, stage « IA Agent for IVVQ management » à La Ciotat (réf. R0342532) : l'offre est active chez l'employeur (publiée le 2026-10-06), score 4.2/5, décision Apply. Le Prompt Engineering, l'évaluation des réponses et le contrôle humain correspondent bien au CV, mais TypeScript et Node.js n'y figurent pas. Le CV LaTeX d'une page est compilé (output/cv-ilyass-afroukh-009-thales-2026-11-07.pdf) et la ligne #9 est ajoutée au tracker (Evaluated).",
+        "tracker": {
+          "num": "9",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Thales",
