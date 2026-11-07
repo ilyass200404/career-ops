@@ -66,6 +66,44 @@
         "verdict": "PASS"
       }
     },
+    "00c9c90f-1917-4cf0-b8f8-55572abdc45c": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "DevOps/BI sans IA ; Kubernetes, GCP, Go et Nix absents du CV ; gratification Thales correcte, Paris acceptable.",
+        "role": "Ingénieur DEVOPS",
+        "score": 3.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
+    "0299fa55-78a3-4db7-8917-43da92d0ad53": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Développement full stack FinOps sans IA ; Python/API/Docker couverts, Angular/TypeScript absents ; archétype hors cible.",
+        "role": "Développement full stack d'outils d'ingénierie",
+        "score": 3.2,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "039068a7-8898-4635-8309-be6f959f9643": {
       "triage": {
         "company": "Thales",
@@ -85,6 +123,25 @@
         "verdict": "PASS"
       }
     },
+    "04cb2dc9-73d5-40a3-94e9-f00233814e35": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "IHM Java/JavaFX d'outil de test, aucune IA ; Java présent mais JavaFX/JUnit absents ; habilitation défense requise.",
+        "role": "JavaFx - IHM Création Scénario Test",
+        "score": 3.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "MARGINAL"
+      }
+    },
     "0515727b-062b-46f0-92b3-5713dc947c18": {
       "triage": {
         "company": "EY",
@@ -102,6 +159,84 @@
         "scored": "2026-11-06",
         "soft_red_flags": [],
         "verdict": "MARGINAL"
+      }
+    },
+    "05613b55-b7fe-4408-bcad-7db77fb6bd20": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outillage logiciel avionique sans IA, stage Bac+4 de 4-5 mois incompatible avec un PFE de 6 mois.",
+        "role": "Ingénieur optimisation d'outils de développement logiciel de commande de vol",
+        "score": 2.7,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Stage 4-5 mois niveau Bac+4 (PFE 6 mois visé)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "08f4e0df-836d-4cb9-b2d8-a6a440c58d98": {
+      "triage": {
+        "company": "Capgemini",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Business Analysis supply chain non technique ; profil développeur IA/LLM peu valorisé malgré la mention GenAI.",
+        "role": "Business Analyst",
+        "score": 2.7,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "09235a8a-701f-47aa-9f53-5f9faf32f6e9": {
+      "triage": {
+        "company": "Dassault Systèmes",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Gestion des risques et de crise HSS, formation spécialisée attendue ; aucun lien avec les agents IA ou LLM.",
+        "role": "Ingénieur en Gestion des risques et de crises",
+        "score": 2.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "09ee3b17-bc27-44fb-9c7f-bbf114aef88e": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Agent IA SRE/RCA avec LLM, proche de la cible ; agents LLM, ELK, Docker couverts ; GKE, Terraform à combler.",
+        "role": "Ingénieur Cloud DevOps & IA Agentique",
+        "score": 3.9,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "PASS"
       }
     },
     "0ae051ee-6b12-4fa4-bc5f-d88217117d57": {
@@ -126,6 +261,25 @@
         "verdict": "FAIL"
       }
     },
+    "0afe6fcf-55b9-4f96-af12-b3316de81dc8": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Gouvernance documentaire et processus (Office, Power BI), sans développement ni IA ; hors archétypes cibles.",
+        "role": "Ingénieur Data Management & Gouvernance des données",
+        "score": 2.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
     "0bcb57ab-3739-4208-bdfd-d04e1ddf99ba": {
       "triage": {
         "company": "Natixis",
@@ -145,6 +299,25 @@
         "verdict": "MARGINAL"
       }
     },
+    "0cf65973-2a0d-4955-a5d9-d6a251cec690": {
+      "triage": {
+        "company": "Société Générale",
+        "dimensions": {
+          "archetype": 4.0,
+          "comp": 4.0,
+          "cv_match": 4.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Cas d'usage GenAI, PoC et agents, 6 mois ; projets RAG/agents LLM pertinents ; volet adoption moins technique.",
+        "role": "Chargé de Développement et Adoption IA",
+        "score": 4.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
     "0ef25663-f551-4a5b-842f-e4df4acdfe56": {
       "triage": {
         "company": "Thales",
@@ -160,6 +333,25 @@
         "role": "Ingénieur hyperfréquence",
         "score": 2.5,
         "scored": "2026-11-06",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "0f2a894e-167d-42e7-a127-3d74a9add0a2": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "R&D goniométrie parcimonieuse (MATLAB, traitement d'antennes) ; traitement du signal du CV trop basique, hors cible IA/LLM.",
+        "role": "Ingénieur Traitement du Signal Goniométrie",
+        "score": 2.7,
+        "scored": "2026-11-07",
         "soft_red_flags": [],
         "verdict": "FAIL"
       }
@@ -182,6 +374,108 @@
         "soft_red_flags": [
           "Début janvier 2027, avant la disponibilité (mars 2027)"
         ],
+        "verdict": "FAIL"
+      }
+    },
+    "114a6653-3fb3-4803-a2f5-d2ee62dfb94c": {
+      "triage": {
+        "company": "SFR",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outil ML sur KPI radio 4G/5G, adjacent ; Python/ML couverts, radio mobile absente ; démarrage janvier avant mars 2027.",
+        "role": "Stagiaire Réseau - Support technique des réseaux, services et outils",
+        "score": 3.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Début 01/2027 avant la disponibilité 03/2027"
+        ],
+        "verdict": "MARGINAL"
+      }
+    },
+    "11d911b7-b298-401b-a756-c2ffe0390f4f": {
+      "triage": {
+        "company": "Grant Thornton",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Audit financier et commissariat aux comptes, sans rapport avec l'IA ; démarrage janvier 2027 incompatible.",
+        "role": "Stagiaire Audit",
+        "score": 2.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Début janvier 2027 avant la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "11ed542d-c379-4dba-8ac3-1de852223947": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Migration de spécifications d'ingénierie système (Capella, radiocom) ; seules les notions cyber recoupent le CV.",
+        "role": "Ingénieur Système Radiocommunications",
+        "score": 2.7,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "12f1e40c-c998-47fa-a2ee-d651e6bd5c34": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 2.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Poste technicien Bac+2/3 de 3 mois en gestion d'équipements de test satellite ; niveau et domaine inadaptés.",
+        "role": "Technicien Gestion des EGSE (Electrical Ground Support Equipment)",
+        "score": 1.0,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Niveau technicien Bac+2/3",
+          "Durée 3 mois (PFE 6 mois visé)"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "13480f05-704d-4b04-a77d-114ae69c7588": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Veille marché et études concurrentielles cyber ; l'IA générative n'est qu'un volet outils, rôle surtout stratégie/marketing.",
+        "role": "Competitive Market Intelligence Cyber & Optimisation outils",
+        "score": 2.7,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
         "verdict": "FAIL"
       }
     },
@@ -241,6 +535,105 @@
         "scored": "2026-11-06",
         "soft_red_flags": [
           "Début septembre 2027, après le diplôme"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "160f620f-386a-4f33-923c-94dfb1e75821": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Électronique hyperfréquence et obsolescences radar (ADS, mesures RF) ; aucune compétence correspondante dans le CV.",
+        "role": "Traitement des Obsolescences RF/HF de radar MFR",
+        "score": 2.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "168e0a97-27cd-4211-b76d-615b5669ae55": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 3.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Outil IA de vérification de cohérence MBSE, proche de l'automatisation de conception ; Python/LLM couverts, Capella/SysML absents.",
+        "role": "Ingénieur méthodes outillées pour l'ingénierie système",
+        "score": 3.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "PASS"
+      }
+    },
+    "16cd9a81-718e-4b20-a1d4-bd328ddc507a": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 2.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Java/Angular et migration AWS sans IA ; Angular absent, AWS en notions ; démarrage février avant mars 2027.",
+        "role": "Développeur JAVA full stack et migration cloud AWS",
+        "score": 2.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Début février 2027 avant la disponibilité 03/2027"
+        ],
+        "verdict": "FAIL"
+      }
+    },
+    "195d71db-0c17-4778-93c0-72ec60d8a5fb": {
+      "triage": {
+        "company": "Thales",
+        "dimensions": {
+          "archetype": 1.0,
+          "comp": 4.0,
+          "cv_match": 1.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Amélioration continue Lean, VBA et gestion de stocks pyrotechniques ; hors archétypes IA, aucune correspondance CV.",
+        "role": "Lean/Amélioration de la gestion du développement et du laboratoire",
+        "score": 2.5,
+        "scored": "2026-11-07",
+        "soft_red_flags": [],
+        "verdict": "FAIL"
+      }
+    },
+    "19785523-e399-4606-bb7c-453bc7e6fcba": {
+      "triage": {
+        "company": "Servier",
+        "dimensions": {
+          "archetype": 3.0,
+          "comp": 4.0,
+          "cv_match": 2.0,
+          "location": 4.0
+        },
+        "hard_dq": null,
+        "priority_override": false,
+        "reason": "Identification de cas d'usage IA agentique sans développement ; formation biologie/pharma exigée, profil informatique hors critère.",
+        "role": "IA Agentique",
+        "score": 2.9,
+        "scored": "2026-11-07",
+        "soft_red_flags": [
+          "Spécialisation biologie/pharmacologie exigée"
         ],
         "verdict": "FAIL"
       }
