@@ -1,6 +1,11 @@
 {
   "offers": {
     "0080079f-30c8-4787-85eb-d0481d1d54e9": {
+      "pipeline": {
+        "date": "2026-11-07 13:39",
+        "log": "/data/logs/20261107-133935-01-thales-analyse-intelligente-et-detection.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
