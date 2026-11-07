@@ -512,8 +512,8 @@
     "2c1f26a8-1f11-4fae-9c90-ef7a47dc4ee7": {
       "checked": "2026-11-06 23:19",
       "pipeline": {
-        "date": "2026-11-07 00:01",
-        "log": "/data/logs/20261106-235936-02-thales-ia-agent-for-ivvq-management.jsonl",
+        "date": "2026-11-07 14:00",
+        "log": "/data/logs/20261107-133935-05-thales-ia-agent-for-ivvq-management.jsonl",
         "status": "interrupted"
       },
       "triage": {
