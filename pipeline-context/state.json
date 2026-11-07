@@ -1812,9 +1812,46 @@
     },
     "c2f4f2bc-397d-4687-aac0-2c9013d464d9": {
       "pipeline": {
-        "date": "2026-11-07 13:51",
+        "cost_usd": 2.8030375999999997,
+        "date": "2026-11-07 13:55",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/007-thales-2026-11-07.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-007-thales-2026-11-07.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-007-thales-2026-11-07.tex"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/thales-stage-evaluations-outils-ingenierie-ia-agentique.md"
+          }
+        ],
         "log": "/data/logs/20261107-133935-03-thales-evaluation-de-nouveaux-outils-d-i.jsonl",
-        "status": "interrupted"
+        "minutes": 4.6,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas. L'archétype a été évalué contre les cibles de config/profile.yml. Voulez-vous compléter modes/_profile.md ?",
+          "Tests avec des utilisateurs et recommandations d'adoption : ce sont des missions explicites de l'offre, absentes de cv.md. Avez-vous une pratique réelle à ajouter à cv.md ? Rien n'a été ajouté.",
+          "Domaine défense et mobilité : le stage est sur un site radar militaire à Élancourt, avec une procédure d'accès possible et un déménagement depuis Caen. Est-ce que cela vous convient ?",
+          "Date de début : l'offre ne la fixe pas (4-6 mois, publiée le 2026-10-05) et votre recherche vise 03/2027. À confirmer avec le recruteur.",
+          "Priorité entre les trois offres Thales (#5 à 3.8, #6 à 4.0, #7 à 4.4) : postuler aux trois ou seulement à certaines ?",
+          "Contrôle du CV LaTeX : le PDF a été compilé avec --compile-only, car le validateur ne reconnaît pas les \\section* du template personnalisé. Le contrôle des faits est en warn : les nombres en français n'ont pas été vérifiés automatiquement, et config/cv-facts.json est absent."
+        ],
+        "report": "/tmp/career-ops/reports/007-thales-2026-11-07.md",
+        "score": 4.4,
+        "session_id": "3555dfc4-522a-4b36-857b-bcf0175db8c1",
+        "status": "done",
+        "summary": "Thales, stage « Evaluations de nouveaux outils d'ingénierie à base d'IA Agentique » (Élancourt, réf. R0342345) : 4.4/5, décision Apply, légitimité High Confidence. L'offre est active chez l'employeur, publiée le 2026-10-05. Le CV LaTeX d'une page est généré dans output/cv-ilyass-afroukh-007-thales-2026-11-07.pdf, et la ligne #7 est ajoutée au tracker (Evaluated). Pas de bloc H, car le score est sous 4.5.",
+        "tracker": {
+          "num": "7",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Thales",
