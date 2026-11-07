@@ -2185,6 +2185,11 @@
           "status": "Evaluated"
         }
       },
+      "review": {
+        "date": "2026-11-07 14:12",
+        "note": "",
+        "status": "validated"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
