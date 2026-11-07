@@ -2,9 +2,51 @@
   "offers": {
     "0080079f-30c8-4787-85eb-d0481d1d54e9": {
       "pipeline": {
-        "date": "2026-11-07 13:39",
+        "cost_usd": 3.2048271,
+        "date": "2026-11-07 13:45",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/005-thales-2026-11-07.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-005-thales-2026-11-07.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-005-thales-2026-11-07.tex"
+          },
+          {
+            "kind": "Interview prep",
+            "path": "/tmp/career-ops/interview-prep/story-bank.md"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/thales-stage-analyse-intelligente-detection-incoherences-donnees-heterogenes.md"
+          }
+        ],
         "log": "/data/logs/20261107-133935-01-thales-analyse-intelligente-et-detection.jsonl",
-        "status": "interrupted"
+        "minutes": 5.8,
+        "pending": [
+          "Score 3.8 sous le seuil de 4.0 : avez-vous une raison précise de postuler quand même (Thales, sujet détection d'anomalies) ?",
+          "Faut-il ajouter « détection d'anomalies / qualité de données par IA » à vos rôles cibles ?",
+          "modes/_profile.md et portals.yml n'existent pas (onboarding non terminé) : voulez-vous compléter modes/_profile.md ?",
+          "C++ est demandé au même niveau que Python mais n'apparaît que dans la liste de compétences : avez-vous un projet C++ réel à ajouter à cv.md ?",
+          "Le service conçoit des systèmes militaires : êtes-vous à l'aise avec ce domaine et prêt à une éventuelle procédure d'accès au site ?",
+          "Date de début (03/2027, 6 mois) et site (Vélizy ou Massy) à confirmer avec le recruteur ; gratification ≥ 900 € à vérifier",
+          "Template LaTeX personnalisé (\\section*) : PDF compilé avec --compile-only ; faut-il adapter le template ou garder ce mode ?"
+        ],
+        "report": "/tmp/career-ops/reports/005-thales-2026-11-07.md",
+        "score": 3.8,
+        "session_id": "cbcf52a2-fb65-4f7f-961b-379d16e4612a",
+        "status": "done",
+        "summary": "Le stage Thales R0344680 (Vélizy) a reçu 3.8/5, avec la décision « Consider » : le profil correspond bien (IDS à règles Snort avec alertes Kibana, score de confiance chez Zelkio, préparation de données), mais le sujet porte sur la détection d'anomalies et la qualité de données, pas sur les cibles LLM/RAG/GenAI. Le rapport, le CV LaTeX/PDF d'une page (output/cv-ilyass-afroukh-005-thales-2026-11-07.pdf) et la ligne #5 du tracker (Evaluated) sont créés, et l'offre est confirmée active chez l'employeur (publiée le 2026-11-04). Rien n'a été envoyé.",
+        "tracker": {
+          "num": "5",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Thales",
