@@ -1061,6 +1061,11 @@
       }
     },
     "636bfd99-8e0a-4aae-b3cd-cadfe77a321d": {
+      "pipeline": {
+        "date": "2026-11-07 13:45",
+        "log": "/data/logs/20261107-133935-02-thales-generation-de-scenarios-de-test-r.jsonl",
+        "status": "interrupted"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
