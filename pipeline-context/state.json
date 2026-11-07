@@ -1812,20 +1812,9 @@
     },
     "c2f4f2bc-397d-4687-aac0-2c9013d464d9": {
       "pipeline": {
-        "cost_usd": 0,
-        "date": "2026-11-07 00:09",
-        "engine": "claude",
-        "error": "You've hit your 5-hour limit · resets 3:20am (UTC)",
-        "files": [],
-        "log": "/data/logs/20261107-000938-01-thales-evaluation-de-nouveaux-outils-d-i.jsonl",
-        "minutes": 0.0,
-        "pending": [],
-        "report": null,
-        "score": null,
-        "session_id": "4a2cc957-eef0-483f-9bb4-24b781464a55",
-        "status": "failed",
-        "summary": "",
-        "tracker": null
+        "date": "2026-11-07 13:51",
+        "log": "/data/logs/20261107-133935-03-thales-evaluation-de-nouveaux-outils-d-i.jsonl",
+        "status": "interrupted"
       },
       "triage": {
         "company": "Thales",
