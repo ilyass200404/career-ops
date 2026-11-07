@@ -2105,9 +2105,47 @@
     },
     "ec42f500-9439-4e50-b966-2c97bf8c587d": {
       "pipeline": {
-        "date": "2026-11-07 13:55",
+        "cost_usd": 2.9907806999999993,
+        "date": "2026-11-07 14:00",
+        "engine": "claude",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/008-thales-2026-11-07.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-008-thales-2026-11-07.pdf"
+          },
+          {
+            "kind": "CV (LaTeX)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-008-thales-2026-11-07.tex"
+          },
+          {
+            "kind": "Job description",
+            "path": "/tmp/career-ops/jds/thales-stage-developpement-amelioration-agent-ia.md"
+          }
+        ],
         "log": "/data/logs/20261107-133935-04-thales-developpement-et-amelioration-d-u.jsonl",
-        "status": "interrupted"
+        "minutes": 5.1,
+        "pending": [
+          "Profil incomplet : modes/_profile.md et portals.yml n'existent pas ; l'archétype a été évalué contre les cibles de config/profile.yml. Voulez-vous compléter modes/_profile.md ?",
+          "GitLab, tests unitaires et d'intégration, CI/CD : exigés par l'offre mais absents de cv.md (seul Git y figure). Avez-vous une pratique réelle à ajouter à cv.md ? Rien n'a été ajouté.",
+          "Anglais : l'offre demande d'être « à l'aise en anglais » ; le template LaTeX indique « intermédiaire » et cv.md ne donne aucun niveau. Quel niveau afficher ? Le CV garde « intermédiaire ».",
+          "Domaine défense et mobilité : site radar militaire à Limours (Essonne), loin de Caen. Êtes-vous à l'aise avec le domaine, une éventuelle procédure d'accès et un déménagement ?",
+          "Date de début non fixée par l'offre ; votre recherche vise 03/2027 pour 6 mois. À confirmer avec le recruteur.",
+          "Priorité entre les offres Thales : #6 (4.0) vient probablement de la même équipe à Limours que celle-ci (4.3). Postuler aux deux ou seulement à celle-ci ?",
+          "CV LaTeX compilé avec --compile-only : le validateur ne reconnaît pas les \\section* du template personnalisé ; le contrôle des faits a renvoyé « warn » (nombres en français non vérifiés automatiquement, config/cv-facts.json absent)."
+        ],
+        "report": "/tmp/career-ops/reports/008-thales-2026-11-07.md",
+        "score": 4.3,
+        "session_id": "a0ff1151-0441-459e-aab6-23f650f0a336",
+        "status": "done",
+        "summary": "Thales GMR (Limours), stage « Développement et amélioration d'un agent IA » : 4.3/5, à postuler. L'agent IA, l'enrichissement du corpus et le RAG correspondent bien au CV, mais les tests de non-régression, GitLab/CI-CD et l'anglais restent des écarts. L'offre a été confirmée active chez l'employeur (publiée le 2026-11-03). Le CV LaTeX d'une page est généré (output/cv-ilyass-afroukh-008-thales-2026-11-07.pdf) et la ligne #8 est ajoutée au tracker.",
+        "tracker": {
+          "num": "8",
+          "status": "Evaluated"
+        }
       },
       "triage": {
         "company": "Thales",
