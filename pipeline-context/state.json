@@ -1988,9 +1988,20 @@
     },
     "ec42f500-9439-4e50-b966-2c97bf8c587d": {
       "pipeline": {
+        "cost_usd": 0,
         "date": "2026-11-07 00:09",
+        "engine": "claude",
+        "error": "You've hit your 5-hour limit · resets 3:20am (UTC)",
+        "files": [],
         "log": "/data/logs/20261107-000938-02-thales-developpement-et-amelioration-d-u.jsonl",
-        "status": "interrupted"
+        "minutes": 0.0,
+        "pending": [],
+        "report": null,
+        "score": null,
+        "session_id": "480b6fee-32c1-44a0-8210-37d8464f6b31",
+        "status": "failed",
+        "summary": "",
+        "tracker": null
       },
       "triage": {
         "company": "Thales",
