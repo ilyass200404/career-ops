@@ -1900,6 +1900,11 @@
           "status": "Evaluated"
         }
       },
+      "review": {
+        "date": "2026-11-07 15:02",
+        "note": "",
+        "status": "validated"
+      },
       "triage": {
         "company": "Thales",
         "dimensions": {
