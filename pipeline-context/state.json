@@ -962,9 +962,33 @@
     },
     "5d62d378-59eb-40e7-9bd8-5edc9e045b92": {
       "pipeline": {
-        "date": "2026-11-06 23:59",
+        "cost_usd": 1.6292262000000002,
+        "date": "2026-11-07 00:01",
+        "engine": "claude",
+        "error": "You've hit your 5-hour limit · resets 3:20am (UTC)",
+        "files": [
+          {
+            "kind": "Evaluation report",
+            "path": "/tmp/career-ops/reports/004-RESERVED.md"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-002-capgemini-2026-11-06.pdf"
+          },
+          {
+            "kind": "CV (PDF)",
+            "path": "/tmp/career-ops/output/cv-ilyass-afroukh-003-chanel-2026-11-06.pdf"
+          }
+        ],
         "log": "/data/logs/20261106-235936-01-thales-developpeur-de-solutions-numeriqu.jsonl",
-        "status": "interrupted"
+        "minutes": 1.4,
+        "pending": [],
+        "report": "/tmp/career-ops/reports/004-RESERVED.md",
+        "score": null,
+        "session_id": "f5d5f51f-06cc-4152-a121-0d33f926b5d2",
+        "status": "failed",
+        "summary": "",
+        "tracker": null
       },
       "triage": {
         "company": "Thales",
